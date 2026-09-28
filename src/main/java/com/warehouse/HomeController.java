@@ -1,13 +1,7 @@
 package com.warehouse.warehouselot;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
 
-@RestController
+@Controller
 public class HomeController {
-
-    @GetMapping("/")
-    public String home() {
-        return "Warehouse Slot Management System is Running!";
-    }
 }
